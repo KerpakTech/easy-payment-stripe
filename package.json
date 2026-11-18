@@ -1,0 +1,26 @@
+{
+  "name": "@easy-payment/stripe",
+  "version": "0.0.1",
+  "description": "Stripe adaptor for easy-payment (KerpakTech fork)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KerpakTech/easy-payment-stripe"
+  },
+  "keywords": [
+    "payment",
+    "gateway",
+    "easy-payment",
+    "stripe"
+  ],
+  "author": "KerpakTech",
+  "license": "MIT",
+  "dependencies": {
+    "@easy-payment/base": "git+https://git@github.com/KerpakTech/easy-payment-base.git#563be0704e0c37bc220f4cddf54a3e5e37a912f2",
+    "stripe": "^8.197.0"
+  }
+}
